@@ -371,5 +371,7 @@ https://streamtv.cdn.dvmr.fr/TVR/ngrp:tvr.stream_all/master.m3u8
 https://54627d4fc5996.streamlock.net/tzik/tzik/chunklist.m3u8
 #EXTINF:-1 tvg-id="ViaOccitanie.fr" tvg-name="ViaOccitanie" tvg-logo="https://i.imgur.com/NzuKt1R.png" group-title="general",ViaOccitanie
 https://streamer01.myvideoplace.tv/streamer02/hls/MDS_VIA_PAD_301117.m3u8
+#EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="Africa IPTV-Org" group-title="Africa",Africa Playlist (IPTV-Org)
+https://iptv-org.github.io/iptv/regions/africa.m3u
 
-Donc ca ne me serre a rien
