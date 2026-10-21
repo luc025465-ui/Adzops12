@@ -1,16 +1,16 @@
 #EXTM3U
 
 # ==========================================
-# IMPORTATION GLOBALE CHAÎNES AFRIQUE
+# CHAÎNES AFRIQUE
 # ==========================================
-#EXTINF:-1 tvg-id="" tvg-name="Toutes les chaines Afrique (IPTV-Org)" group-title="Afrique",Toutes les chaines Afrique (IPTV-Org)
-https://iptv-org.github.io/iptv/regions/africa.m3u
+#EXTINF:-1 tvg-id="Africa24.fr" tvg-name="Africa 24" tvg-logo="https://africa24tv.com/wp-content/uploads/2021/09/logo.png" group-title="Afrique",Africa 24
+https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
 
-# ==========================================
-# CHAÎNES AFRIQUE THÉMATIQUES & MUSIQUE
-# ==========================================
 #EXTINF:-1 tvg-id="AfricanewsFrench.fr" tvg-name="Africanews French" tvg-logo="https://i.imgur.com/5UxU4zc.png" group-title="Afrique",Africanews French
 https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25050/index.m3u8
+
+#EXTINF:-1 tvg-id="AfricanewsEnglish.fr" tvg-name="Africanews English" tvg-logo="https://a.jsrdn.com/hls/22886/africanews/extras/1080_logo.png" group-title="Afrique",Africanews English
+https://c3c275b999764df8a2dd55ffe2996818.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6576/bitok/eyJzdGlkIjoiOTU0NDAyODQtOTU0My00Yzc2LThmZjQtNDRhY2YwYmQxYTYwIiwibWt0IjoicGwiLCJjaCI6NjYwNiwicHRmIjo1fQ==/26036/africanews-en.m3u8
 
 #EXTINF:-1 tvg-id="TV5MondeAfrica.fr" tvg-name="TV5Monde Africa" tvg-logo="https://i.imgur.com/0N64Ddn.png" group-title="Afrique",TV5Monde Africa
 http://5.9.121.178/tv5monde/index.m3u8
@@ -30,38 +30,62 @@ https://channels.trace.plus/Traceprod/MBOA_hd/index.m3u8
 #EXTINF:-1 tvg-id="TraceAfrikora.fr" tvg-name="Trace Afrikora" tvg-logo="https://i.imgur.com/CQDdnhp.png" group-title="Afrique",Trace Afrikora
 https://channels.trace.plus/Traceprod/TERANGA_hd/index.m3u8
 
+#EXTINF:-1 tvg-id="TraceNgoma.fr" tvg-name="Trace Ngoma" tvg-logo="https://www.hypresslive.com/wp-content/uploads/2025/12/9cf0931b-5e1e-16da-515a-bd203ca3c928-1536x1074.png" group-title="Afrique",Trace Ngoma
+https://channels.trace.plus/Traceprod/AFRICA_EN_hd/index.m3u8
+
 #EXTINF:-1 tvg-id="NollywoodTV.fr" tvg-name="Nollywood TV" tvg-logo="https://i.imgur.com/29L2gbb.png" group-title="Afrique",Nollywood TV
 http://145.239.5.177/148/index.m3u8
 
+#EXTINF:-1 tvg-id="TeleCongo.cg" tvg-name="Tele Congo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Tele_Congo.png/500px-Tele_Congo.png" group-title="Afrique",Tele Congo
+https://edge20.vedge.infomaniak.com/livecast/ik:telecongo/manifest.m3u8
+
+#EXTINF:-1 tvg-id="ORTB.bj" tvg-name="ORTB Benin" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/ORTB_Benin_Logo.png/500px-ORTB_Benin_Logo.png" group-title="Afrique",ORTB Benin
+https://edge20.vedge.infomaniak.com/livecast/ik:ortb/manifest.m3u8
+
+#EXTINF:-1 tvg-id="RTB.bf" tvg-name="RTB Burkina Faso" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/RTB_Burkina_Faso.png/500px-RTB_Burkina_Faso.png" group-title="Afrique",RTB Burkina
+https://edge20.vedge.infomaniak.com/livecast/ik:rtb/manifest.m3u8
+
+#EXTINF:-1 tvg-id="ORTN.ne" tvg-name="Tele Sahel Niger" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Tele_Sahel.png/500px-Tele_Sahel.png" group-title="Afrique",Tele Sahel Niger
+https://edge20.vedge.infomaniak.com/livecast/ik:telesahel/manifest.m3u8
+
 # ==========================================
-# CHAÎNES FRANÇAISES (TNT & CANAL+)
+# CHAÎNES FRANÇAISES & TNT
 # ==========================================
-#EXTINF:-1 tvg-id="TF1.fr" tvg-name="TF1" tvg-logo="https://i.imgur.com/QxHt9NC.png" group-title="general",TF1
+#EXTINF:-1 tvg-id="TF1.fr" tvg-name="TF1" tvg-logo="https://i.imgur.com/QxHt9NC.png" group-title="General",TF1
 http://151.80.18.177:86/TF1_HD/index.m3u8
 
-#EXTINF:-1 tvg-id="France24.fr" tvg-name="France 24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c1/France_24_logo_%282013%29.svg" group-title="news",France 24
+#EXTINF:-1 tvg-id="France24.fr" tvg-name="France 24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c1/France_24_logo_%282013%29.svg" group-title="News",France 24
 https://live.france24.com/hls/live/2037222-b/F24_AR_HI_HLS/master_5000.m3u8
 
-#EXTINF:-1 tvg-id="France3.fr" tvg-name="France 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/07/France_3_Corse_Via_Stella_-_Logo.svg" group-title="general",France 3
+#EXTINF:-1 tvg-id="France3.fr" tvg-name="France 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/07/France_3_Corse_Via_Stella_-_Logo.svg" group-title="General",France 3
 http://89.187.185.76:8080/France3/index.m3u8
 
-#EXTINF:-1 tvg-id="France4.fr" tvg-name="France 4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/France_4_2018.svg/960px-France_4_2018.svg.png" group-title="kids",France 4
+#EXTINF:-1 tvg-id="France4.fr" tvg-name="France 4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/France_4_2018.svg/960px-France_4_2018.svg.png" group-title="Kids",France 4
 http://41.205.93.154/OKOO/index.m3u8
 
-#EXTINF:-1 tvg-id="M6.fr" tvg-name="M6" tvg-logo="https://i.imgur.com/7GVp3fW.png" group-title="entertainment",M6
+#EXTINF:-1 tvg-id="M6.fr" tvg-name="M6" tvg-logo="https://i.imgur.com/7GVp3fW.png" group-title="Entertainment",M6
 http://99.27.51.147:8080/M6/index.m3u8
 
-#EXTINF:-1 tvg-id="W9.fr" tvg-name="W9" tvg-logo="https://i.imgur.com/reYeMuE.png" group-title="entertainment",W9
+#EXTINF:-1 tvg-id="W9.fr" tvg-name="W9" tvg-logo="https://i.imgur.com/reYeMuE.png" group-title="Entertainment",W9
 https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-w9/cmaf_q2hyb21h/hls-short-hd.m3u8
 
-#EXTINF:-1 tvg-id="CanalPlus.fr" tvg-name="Canal+" tvg-logo="https://i.imgur.com/5HcyMnW.png" group-title="entertainment",Canal+
+#EXTINF:-1 tvg-id="CanalPlus.fr" tvg-name="Canal+" tvg-logo="https://i.imgur.com/5HcyMnW.png" group-title="Entertainment",Canal+
 http://tv.streambox.fr/live/testlivestream/testlivestream/41.m3u8
 
-#EXTINF:-1 tvg-id="CanalPlusSport.fr" tvg-name="Canal+ Sport" tvg-logo="https://i.imgur.com/EOXnU15.png" group-title="sports",Canal+ Sport
+#EXTINF:-1 tvg-id="CanalPlusSport.fr" tvg-name="Canal+ Sport" tvg-logo="https://i.imgur.com/EOXnU15.png" group-title="Sports",Canal+ Sport
 http://tv.streambox.fr/live/testlivestream/testlivestream/31.m3u8
 
-#EXTINF:-1 tvg-id="CNews.fr" tvg-name="CNews" tvg-logo="https://i.imgur.com/sSNhk2g.png" group-title="news",CNews
+#EXTINF:-1 tvg-id="CNews.fr" tvg-name="CNews" tvg-logo="https://i.imgur.com/sSNhk2g.png" group-title="News",CNews
 https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Stream/Live/CNews.m3u8
 
-#EXTINF:-1 tvg-id="BFMTV.fr" tvg-name="BFM TV" tvg-logo="https://i.imgur.com/YJCcczD.png" group-title="news",BFM TV
+#EXTINF:-1 tvg-id="BFMTV.fr" tvg-name="BFM TV" tvg-logo="https://i.imgur.com/YJCcczD.png" group-title="News",BFM TV
 https://live-cdn-stream-euw1.bfmtv.bct.nextradiotv.com/master.m3u8
+
+#EXTINF:-1 tvg-id="LEquipe.fr" tvg-name="L'Equipe" tvg-logo="https://i.imgur.com/t35zhM9.png" group-title="Sports",L'Equipe
+https://dq37unyetkpcz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-m04j89j7k5gtp/LEquipe_FR.m3u8
+
+#EXTINF:-1 tvg-id="TraceUrban.fr" tvg-name="Trace Urban" tvg-logo="https://i.imgur.com/DLIbUMx.png" group-title="Music",Trace Urban
+https://channels.trace.plus/Traceprod/URBAN_FR_hd/index.m3u8
+
+#EXTINF:-1 tvg-id="Gulli.fr" tvg-name="Gulli" tvg-logo="https://i.imgur.com/kqYssbW.png" group-title="Kids",Gulli
+http://99.27.51.147:8080/Gulli/index.m3u8
